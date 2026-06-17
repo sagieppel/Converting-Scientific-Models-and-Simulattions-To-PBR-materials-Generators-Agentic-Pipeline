@@ -14,8 +14,9 @@ The pipeline has three stages:
 
 Generated datasets are written under `output_pbrs/<topic>/`. Each topic directory keeps its own dataset state and contains one subdirectory per generated method.
 
-## For the full generated dataset see: [EmergenTextures Dataset](https://github.com/sagieppel/EmergenTexture-dataset-of-PBR-materials-generated-by-simulations-models-and-simulations-)
-![](/samples2.jpg)
+### For the full generated dataset see: [EmergenTextures Dataset](https://github.com/sagieppel/EmergenTexture-dataset-of-PBR-materials-generated-by-simulations-models-and-simulations-)
+
+![](/samples3.jpg)
 
 ## Setup
 
