@@ -1,0 +1,9 @@
+Suggest @@@number_of_new@@@ distinct methods for generating PBR material textures programmatically using code.
+The goal is to leverage existing principles, techniques, and systems specifically from art and digital art (e.g., traditional media, painting techniques, color theory, composition, procedural art, generative art, shader art, digital sculpting, etc.) to produce PBR texture maps.
+
+You may draw from:
+
+Traditional artistic processes that create surface detail (e.g., brush strokes, layering, glazing, pigment mixing, canvas texture, printmaking)
+Or digital/generative art systems that can be adapted for procedural texture generation (e.g., shader-based effects, algorithmic art, node-based workflows, pixel manipulation, procedural noise compositions)
+
+List your suggestions and briefly explain the general idea behind each (no detailed implementation needed).

@@ -1,0 +1,3 @@
+
+generate.generate_texture(outdir,num_samples=10)
+

@@ -1,0 +1,121 @@
+Write a fully functional Python script that procedurally generates PBR materials using the following method:
+
+Method name:
+**method_name**
+
+Method description:
+**method_description**
+
+---
+
+Requirements
+
+Core function
+Implement the function:
+
+generate_texture(outdir, sz=512, params=None, numsamples=1)
+
+Arguments
+
+* outdir: output directory where generated PBR maps will be saved
+* sz: resolution (square images, default 512×512)
+* params: dictionary of method parameters
+
+  * If None, randomly sample different parameters in each run.
+  * Randomization must ensure high diversity across runs (meaning every run will generate different set of images by different seed/parameter space)
+* numsamples: number of different PBR materials to generate (could be sequence of simulation steps or different param sample but must be clearly different from each other)
+
+---
+
+Output behavior
+
+* Create the folder outdir if it does not exist
+* For each sample, generate a separate subfolder:
+  outdir/sample_000/
+  outdir/sample_001/
+  ...
+* Each sample folder must contain PBR maps saved as .png
+
+---
+
+Required PBR maps
+
+Generate at least 3 maps, including:
+
+Mandatory:
+
+* BaseColor.png
+
+Plus not less then 2 of (more is better):
+
+
+* Roughness.png
+* Metallic.png
+* Height.png
+* Transmission.png
+* Emission.png
+* Normal.png  (no need if you provide height map)
+* AmbientOcclusion.png
+* Specular.png
+
+---
+
+
+* If no direct correlation exists you can be creative and map different channels of the simulation to different maps (like concentration -> height.. velocity to color..).
+* Maps that are completely derived from each other (height->normal) are not counted as different and there no need to resave them.
+* Try to have physical consistancy: if there height map the normal map should be related to it unless there clear physical justification
+---
+
+Procedural + simulation requirements
+
+
+* You can be creative in  adapting on the model can be coverted to PBR maps and how to make it visually interesting.
+* Clearly expose key parameters controlling the simulation
+
+---
+
+Tileability:
+
+* If consistent with the method always generate seamless/tileable textures
+
+---
+
+Performance constraints
+
+* Target runtime: ≤ 60 seconds per sample at 512×512
+* Use efficient NumPy / vectorized operations where possible
+* Avoid unnecessary loops or excessive memory usage
+
+---
+
+Code quality
+
+* The script must:
+
+  * Be self-contained (standard Python + common libraries like NumPy, PIL, OpenCV, scipy, biopython.... allowed)
+  * Include all required imports
+  * Be directly runnable
+* Use clear structure and comments
+
+---
+
+Output format (STRICT)
+
+Return your answer as:
+
+{
+"code": "<full python script>",
+"Succeed": "yes" or "no",
+"notes": "Short explanation of implementation, assumptions, and limitations"
+}
+
+---
+
+Additional guidance
+
+* Prefer parameterized generators that can produce many variations and interesting complex textures.
+* Try to generate textures and not localize patterns
+* Try to make patterns colorful
+
+
+

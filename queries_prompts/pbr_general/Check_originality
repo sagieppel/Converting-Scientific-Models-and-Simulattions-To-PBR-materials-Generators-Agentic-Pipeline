@@ -1,0 +1,22 @@
+
+I want to create new pattern generation method but need to make its sure its not identical or very similar method I already used.
+
+
+Can you identify any method in the following list of  methods that is very similar basically identical to:
+ **benchmark_name**
+
+Here is list of existing texture generating method:
+
+**existing benchmark**
+
+Note if the task have some overlap but not completely identical it doesnt count as full match.
+Only if two different methods simulate the same system and will end up leading to ***exactly*** the same textures, count it as full match even if the methods are different.
+
+Provide your response in the format of a json file of the following structure:
+
+
+{
+"match": "yes"/"no"/"partial" is there very similar or identical method "yes" if there method that seem to be identical (even if the name is different) use "no" if there is none and "partial" if there significant  but not full similarity,
+"similar":list of similar methods in the list (if any) provided as ["method 1 name","method 2 name"..],
+"explain": explain your answer
+}

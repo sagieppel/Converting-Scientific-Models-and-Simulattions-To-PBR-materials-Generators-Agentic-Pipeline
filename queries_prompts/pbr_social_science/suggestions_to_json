@@ -1,0 +1,6 @@
+ Please reformat your previous response as JSON with the following structure (only the new ideas suggested):
+{"Method 1 name": {"description":Description of the suggested  method, how it work, why it generate interesting pattern (in general, no need for code)}
+"Methods 2 name":...}
+
+Output only the JSON, no other text whatsoever.
+I will take your response and put it with no error in JSON.load() any additional comments other than the JSON will result in an error.

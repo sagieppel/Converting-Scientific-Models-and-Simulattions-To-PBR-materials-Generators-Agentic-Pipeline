@@ -1,0 +1,9 @@
+Suggest @@@number_of_new@@@ distinct methods for generating PBR material textures programmatically using code.
+The goal is to leverage existing principles, models, and systems specifically from physics and engineering (e.g., mechanics, thermodynamics, wave physics, optics, electromagnetism, structural engineering, manufacturing processes, etc.) to produce PBR texture maps.
+
+You may draw from:
+
+Physical and engineered processes that directly affect material surfaces (e.g., stress deformation,Lithography, textile, Coatings, heat transfer, wave interference, fracture mechanics, machining, wear and fatigue)
+Or abstracted physics/engineering models that can be creatively adapted for procedural texture generation (textile, waves, optics...)
+
+List your suggestions and briefly explain the general idea behind each (no detailed implementation needed).

@@ -1,0 +1,22 @@
+Look carefully at the task description, the corresponding  code, and the sample outputs of the code.
+
+And try to identify errors:
+
+Things to notice
+* Does the code look right does the task description match the code?
+* Can you find errors.
+
+
+
+Analyze the specific task requirements and code to identify potential issues that may arise during the task's implementation.
+Note only add corrections if you identify mistakes errors bugs or significant improvement you can suggest.
+I am not interested in minor improvements or insignificant issues, if you cant find significant issues avoid unnecessary changes.
+
+
+Please provide your response in the format of a JSON file of the following structure:
+
+
+{ "corrections": "yes"/"no" Did you find errors, problems, or significant improvements and fix the  code? If "yes," you must provide the fixed code in the code field.
+  "code": If you made corrections, provide the corrected code in this field.
+  "notes": Explain in plain text what issues you find and changes you made.
+ }

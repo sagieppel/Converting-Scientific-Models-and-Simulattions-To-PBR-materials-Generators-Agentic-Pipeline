@@ -1,0 +1,25 @@
+Carefully review the task description, the corresponding code, and the sample outputs.
+
+Your goal is to identify significant issues in the implementation.
+
+What to check:
+Does the code correctly implement the task described?
+Are there logical errors, bugs, or mismatches between the description and the code?
+Are there issues that would cause incorrect results, failures, or unintended behavior?
+Important guidelines:
+Focus only on meaningful problems (e.g., bugs, incorrect logic, missing requirements, major inefficiencies).
+Do not suggest minor stylistic improvements or trivial optimizations.
+If no significant issues are found, explicitly state that.
+Output format:
+
+Provide your response as a JSON object with the following structure:
+
+{
+  "corrections": "yes" | "no",
+  "code": "corrected code (only if corrections = yes)",
+  "notes": "Clear explanation of the issues found and the changes made"
+}
+Additional rules:
+Only include the "code" field if you made corrections.
+Ensure the corrected code is complete and functional.
+Keep explanations concise and focused on the actual problems.

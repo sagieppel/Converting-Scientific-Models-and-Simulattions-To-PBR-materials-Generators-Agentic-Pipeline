@@ -1,0 +1,10 @@
+Suggest @@@number_of_new@@@ distinct methods for generating PBR material textures programmatically using code.
+The goal is to leverage existing principles, models, and systems specifically from social sciences, crowd modeling, and economics (e.g., agent-based modeling, crowd dynamics, game theory, market behavior, network theory, urban patterns, resource distribution, etc.) to produce PBR texture maps.
+
+You may draw from:
+
+Social and economic processes that generate spatial or structural patterns (e.g., crowd movement, clustering behavior, traffic flow, wealth/resource distribution, urban growth)
+Or abstracted models from these domains that can be creatively adapted for procedural texture generation
+
+
+List your suggestions and briefly explain the general idea behind each (no detailed implementation needed).

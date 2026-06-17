@@ -1,0 +1,7 @@
+Suggest @@@number_of_new@@@ distinct methods for generating PBR material textures programmatically using code.
+The goal is to leverage existing simulation, models, functions and systems from different scientific domains (e.g., physics, chemistry, biology, geology, fluid dynamics, engineering, math,art etc.)
+to produce PBR texture maps. You can either suggest process known to make material textures, or systems not directly use to models materials but can be creatively converted/adapted in some way for creatig PBR materials.
+
+List your suggestions and generally explain each (no details just general idea).
+
+

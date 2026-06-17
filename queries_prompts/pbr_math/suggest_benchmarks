@@ -1,0 +1,9 @@
+Suggest @@@number_of_new@@@ distinct methods for generating PBR material textures programmatically using code.
+The goal is to leverage existing principles, models, and systems specifically from mathematics (e.g., geometry, topology, fractals, differential equations, stochastic processes, chaos theory, tiling theory, etc.) to produce PBR texture maps.
+
+You may draw from:
+
+Mathematical systems that directly generate structured or natural-looking patterns (e.g., Voronoi diagrams, Perlin/simplex noise, fractals, cellular automata)
+Or more abstract mathematical constructs that can be creatively adapted for procedural texture generation
+
+List your suggestions and briefly explain the general idea behind each (no detailed implementation needed).

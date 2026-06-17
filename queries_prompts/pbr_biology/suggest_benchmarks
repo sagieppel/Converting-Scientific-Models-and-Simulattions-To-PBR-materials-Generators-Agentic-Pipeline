@@ -1,0 +1,10 @@
+Suggest @@@number_of_new@@@ distinct methods for generating PBR material textures programmatically using code.
+The goal is to leverage existing principles, processes, and models specifically from biology and life sciences (e.g., morphogenesis, cellular growth, tissue formation, ecological patterning, microbiology, genetics, biomaterials, etc.) to produce PBR texture maps.
+
+You may draw from:
+
+Biological processes that directly generate natural surface structures (e.g., skin patterns, plant growth, fungal spread, cellular organization)
+Or abstracted bio-inspired systems that can be creatively adapted for procedural texture generation
+
+
+List your suggestions and briefly explain the general idea behind each (no detailed implementation needed).

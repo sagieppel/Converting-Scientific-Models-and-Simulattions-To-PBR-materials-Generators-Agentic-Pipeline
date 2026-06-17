@@ -1,0 +1,9 @@
+Suggest @@@number_of_new@@@ distinct methods for generating PBR material textures programmatically using code.
+The goal is to leverage existing principles, simulations, and models specifically from chemistry and materials science (e.g., crystallography, phase transitions, reaction-diffusion systems, polymer science, surface chemistry, corrosion, electrochemistry, materials processing, etc.) to produce PBR texture maps.
+
+You may draw from:
+
+Physical and chemical processes that directly form real-world material structures (e.g., crystal growth, oxidation, precipitation, coating, chemical reactions)
+Or abstracted/material science–inspired systems that can be adapted creatively for texture generation
+
+List your suggestions and briefly explain the general idea behind each (no detailed implementation needed)
